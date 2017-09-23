@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chawla's Resturant</title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
+<style>
+	.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+      
+  }
+  .team-active img{
+      border: 5px solid red;
+  }
+  h1{
+  	text-align: center;
+  	font-size: 45px;
+  	color: #F10C25;
+    font-family: 'Gravitas One', cursive;
+   
+  }
+  p{
+  	text-align: center;
+  	font-size: 25px;
+  	color: blue;
+  }
+  h2{
+  	font-size: 20px;
+  	color:  #CB4335 ;
+  	margin-left: 30px;
+  }
+  .glyphicon-star{
+  	color: green;
+}
+img { 
+padding-top: 0px;
+border: 5px solid black;
+}
+h4{
+	font-size: 30px;
+	text-align: right;
+	padding-right: 300px;
+	color: green;
+}
+marquee{
+	color: blue;
+	font-size: 40px;
+	background-color:yellow;
+    font-family: 'Lily Script One', cursive;
+}
+strong{ 
+   color: #117A65;
+   font-size: 25px;
+ }
+ .button{
+ 	color: white;
+ 	background-color: green;
+ 	font-size: 20px;
+ 		border-radius: 30px;
+    	padding: 15px;
+    	width: 160px;
+    	border-width: thin;
+    	text-align: center;
+    	margin-bottom: 30px;
+ }
+ .button1{
+ 	text-align: right;
+ 	padding-right: 180px;
+ }
+
+.text{
+	background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6LS5AWM1NRVfEXYrU58NLrx3F4k4Z_Oys0x8l01NsrCgEehn6HQ);
+     padding-top: 4px;
+}
+hr{
+	width: 50%;
+ }
+.heloo{
+  background: url(https://tse1.mm.bing.net/th?id=OIP.okBoVjAIRtdPt1zHKh5cZQEsDr&pid=15.1&P=0&w=201&h=159);  
+ }
+ .box h4{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 60px;
+    margin-left: 200px;
+  }
+  .box a{
+    color: blue;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+  .box{
+    background-color: orange;
+    width: 90%;
+    height: 35%;
+    margin-left: 70px;
+    
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+ .section-container9{
+    text-align: center;
+    padding-top:50px;
+    width: 100vw;
+    padding-bottom: 50px;
+  }
+  
+  .section-heading8{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color:#000080;
+    padding-top: 30px;
+  }
+
+  .section-container9 hr{
+    border-color: black;
+    width:150;
+  }
+
+    .head8{
+    font-size: 30px;
+    color:#B22222;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    padding-top: 17px;
+    padding-bottom: 8px;
+  }
+  .first{
+    border-radius: 30px;
+      padding: 5px;
+      width: 100px;
+      background: #FFF;
+      border-color: #E0E0E0;
+      border-width: thin;
+      font-size: large;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-right: 6px;
+  }
+  
+  .second{
+    border-radius: 30px;
+      padding: 5px;
+      width: 160px;
+      background: #5B5658;
+      color: #FFF;
+      border-width: thin;
+      font-size: large;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  .third{
+    border-radius: 30px;
+      padding: 5px;
+      width: 160px;
+      background: #5B5658;
+      color: #FFF;
+      border-width: thin;
+      font-size: large;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+footer{
+  background-color:grey;
+}
+.head9{
+  text-align: center;
+  margin-right: 10px;
+  font-size: 15px;
+}
+p9{
+  color:#C71585;
+  font-size: 15px;
+}
+p6{
+  color:#006400;
+  font-size: 15px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+h6{
+    font-size: 25px;
+  color: orange;
+}
+a{
+  font-size: 20px;
+  color: #DAA520;
+}
+ .navbar-inverse{
+  background-color: #CB4335;
+}
+.container-fluid img{
+   width: 350px;
+   border-color: white;
+   height: 150px;
+   padding-right: 10px;
+   margin-top: 80px;
+   padding-left: 120px;
+   margin-left: 15px;
+   margin-bottom: 5px;
+}
+.container-fluid h1{
+    font-family: 'Bungee Inline', cursive;
+    color: green;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-right: 80px;
+    text-align: center;
+    font-size: 100px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav class="navbar navbar-inverse navbar-fixed-top"">
+  <div class="container-fluid">
+  <div class="navbar-header">
+      <a class="navbar-brand" href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/page1.html">HOME</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/birthday.html">Birthday Party</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/anniversary.html">Anniversary Party</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/kitty.html">Kitty Party</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/bachelor.html">Bachelor Party</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/retirement.html">Retirement Party</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/breakup.html">Break-Up Party</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">VENUE<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/peacock.html">Peacock Rooftop Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/lalit.html">The Lalit</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/cheelgadi.html">Chellgadi Veg.Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/niros.html">Niros Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/chokhidhani.html">Choki Dhani Village</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/chanakya.html">Chanakya Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/dragon.html">Dragon House Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/chawlas.html">Chawla's Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/baluchi.html">Marriott Hotel</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">TIME<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href=""><input type="radio" name="gender" value="male">9am-11am<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">12pm-3pm<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">4pm-7pm<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">8pm-11pm<br></a></li>
+        </ul>
+      </li>
+      
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MUSIC<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href=""><input type="radio" name="gender" value="male">Musical Genres<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">Folk Music<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">Jazz<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">Blues<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">Rock Music<br></a></li>
+          <li><a href=""><input type=  "radio" name="gender" value="male">Rapping<br></a></li>
+        </ul>
+      </li>
+      
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FOOD<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="file:///C:/Users/sony1/Desktop/event%20planning%20website/starters.html">Starters</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/event%20planning%20website/maincourse.html">Main-Course</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/event%20planning%20website/chat.html">Dessert</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/event%20planning%20website/beverages.html">Beverages</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/event%20planning%20website/fasting.html">Fasting Snacks</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PERSONS<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"><input type="radio" name="gender" value="male">Couple<br></a></li>
+          <li><a href="#"><input type="radio" name="gender" value="male">Above 20<br></a></li>
+          <li><a href="#"><input type="radio" name="gender" value="male">Above 50<br></a></li>
+          <li><a href="#"><input type="radio" name="gender" value="male">Above 100<br></a></li>
+        </ul>
+      </li>
+      </ul>
+       <ul class="nav navbar-nav navbar-right">
+      <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/login1.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul> 
+  </div>
+</nav>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-1"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTWScYsmWNaEXR64r46r1kFGZXHIgKHVJhrZzgBqwEbTYib1IO"></div>
+   <div class="col-sm-11"><h1 >PLANTASTIC</h1></div>
+  </div>
+</div>
+<div class="heloo">
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.j3oN2GW7MHuD2Z7bXWQp2gEsDH&pid=15.1&P=0&w=253&h=169" alt="Chania" width="460" height="340">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-o/05/0b/2a/72/baradari.jpg" alt="Chania" >
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.Iaro5tPm6o4h8SOfWODKGgEsCc&pid=15.1&P=0&w=326&h=171" alt="Flower" width="460" height="355">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://static2.tripoto.com/media/filter/m/img/1195/SpotDocument/choki_dhani13.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<marquee>!! "Decorations and Cake will be complimentary for booking more than 20 persons!"
+" Every moment is a celebration" !!</marquee>
+<div class="text">
+<h1>CHAWLA'S RESTURANT
+ <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+ <hr>
+ <h4>-North Indian Restaurant</h4>  
+</h1>
+<p>" Widespread views are offered from this art-filled rooftop space with a menu of global dishes. "</p>
+<h2><strong>LOCATED IN:</strong> Sodala</h2>
+<h2><strong>ADDRESS: </strong> C/o Hotel Shri Laxmi Palace , 21 Shivpuri Colony, New Sanganer Road, Sodala, Jaipur, Rajasthan 302019</h2>
+<h2><strong>OPEN-HOURS:</strong>10:30am-11pm</h2>
+<h2><strong>PRICE:</strong> Rs.6000 to Rs.8000</h2>
+<div class="button1">
+<button class="button" onclick="myFunction()"><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/food1.html">Go Ahead</a></button>
+</div>
+</h2>
+
+<div class="box">
+  <h4>You Might Be Intrested In</h4>
+
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/peacock.html">Peacock Rooftop Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/lalit.html">The Lalit</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/cheelgadi.html">Chellgadi Veg.Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/niros.html">Niros Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/chokhidhani.html">Choki Dhani Village</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/chanakya.html">Chanakya Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/dragon.html">Dragon House Resturant</a></li>
+          <li><a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/baluchi.html">Marriott Hotel</a></li></div>
+</div>
+</div>
+<footer>
+<section class="row section-container9" id="what">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 section-heading8">THANKS FOR VISITING OUR PAGE<hr></div>
+            <h6>Follow Us On</h6>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        
+      <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-4">
+        <div class="head8">Wanna Say Hi?</div>
+              <p6>We'd  love to hear from you so drop a line.</p6><br>
+              <p9>ankimathur24@gmail.com</p9> 
+            </div>
+      <div class="col-md-4">
+        <div class="head8">Event Services</div>
+            <a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/page1.html">HOME</a><br>
+            <a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/food1.html">FOOD</a><br>
+            <a href="file:///C:/Users/sony1/Desktop/buisness%20website/event%20planning%20website/meeting.html">MEET US</a>
+        </div>
+      <div class="col-md-4">
+          <div class="head8">Terms&Conditions</div>
+          <div class="head9">
+        <p6>Initial meeting(complimentary)<br>
+          Unlimited Email Communication<br>
+          Up to 2 Site Visits(Day Planner)<br>
+          Unlimited Telephone Communication
+        </p6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</footer>
+<script>
+function myFunction() {
+    alert("Thankyou for choosing us");
+}
+</script>
+</body>
+</html>
